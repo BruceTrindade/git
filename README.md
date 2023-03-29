@@ -20,4 +20,6 @@ git branch -m "novo nome" -> muda nome da branch
 
 git reset HEAD˜1 -> Desfazer o ultimo commit feito
 
+git commit --allow-empty -m " "
+
 
