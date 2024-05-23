@@ -22,4 +22,8 @@ git reset HEAD˜1 -> Desfazer o ultimo commit feito
 
 git commit --allow-empty -m " "
 
+git stash
+
+git stash pop
+
 
