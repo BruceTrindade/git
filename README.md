@@ -26,4 +26,6 @@ git stash
 
 git stash pop
 
+git log --author=username --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "Total linhas adicionadas: %s, Total linhas removidas: %s, Linhas de código: %s\n", add, subs, loc }'
+
 
